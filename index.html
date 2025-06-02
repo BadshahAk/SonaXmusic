@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>𓆩𝐒𝚶𝚴𝚨 ✗ 𝚳𝐔𝐒𝐈𝐂𓆪</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 10px;
+      border-radius: 50%;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Example.svg/1200px-Example.svg.png') center/cover no-repeat;
+      border: 3px solid gold;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 10px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      background: linear-gradient(45deg, #ff6b6b, #f06595, #845ef7);
+      background-size: 300% 300%;
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+      transition: 0.4s;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(255,255,255,0.5);
+    }
+
+    .love-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb);
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 20px rgba(255, 182, 193, 0.4);
+      transition: 0.3s;
+    }
+
+    .love-buttons a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(255, 105, 180, 0.6);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+      color: #ffc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="logo"></div>
+  <h1>𓆩𝐒𝚶𝚴𝚨 ✗ 𝚳𝐔𝐒𝐈𝐂𓆪</h1>
+
+  <div class="section">
+    <p>🎶 Premium Telegram Music Bot for unstoppable audio fun! Stream, control, and vibe to music in style!</p>
+    <a href="#commands" class="button">🎵 Commands</a>
+    <a href="#developer" class="button">👨‍💻 Developer</a>
+    <a href="#feedback" class="button">💬 Feedback</a>
+  </div>
+
+  <div id="commands" class="section">
+    <div class="section-title">🎵 Music Commands</div>
+    <p>/start – Start the bot</p>
+    <p>/help – Full guide</p>
+    <p>/play – Play music</p>
+    <p>/pause – Pause</p>
+    <p>/resume – Resume</p>
+    <p>/skip – Skip song</p>
+    <p>/stop – Stop music</p>
+    <p>/queue – Show playlist</p>
+    <p>/lyrics – Get lyrics</p>
+    <p>/song – Download song</p>
+    <p>/ping – Ping test</p>
+  </div>
+
+  <div id="developer" class="section">
+    <div class="section-title">👨‍💻 Developer Info</div>
+    <p><strong>Name:</strong> Mitwa</p>
+    <p><strong>State:</strong> Gujarat, India</p>
+    <p><strong>Skills:</strong> Telegram Bots, Python, Web Dev, API</p>
+    <p><strong>Services:</strong> Paid bot setup, support & hosting</p>
+    <div class="love-buttons">
+      <a href="https://t.me/KALAKAAR5" target="_blank">❤️ Mitwa</a>
+      <a href="https://t.me/TOXICSONA" target="_blank">💖 Sona</a>
+    </div>
+  </div>
+
+  <div id="feedback" class="section">
+    <div class="section-title">💬 Send Feedback</div>
+    <form action="https://api.telegram.org/bot7783294330:AAFbsUhFaKA6S9bQ9UVWRCrzgXhiIAWihqU/sendMessage" method="post" target="_blank">
+      <input type="hidden" name="chat_id" value="7291963092" />
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="text" placeholder="Your Feedback" rows="5" required></textarea>
+      <button type="submit" class="button">📤 Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
